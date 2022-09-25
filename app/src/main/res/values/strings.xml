@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Your odds of death</string>
+    <string name="home_title">welcome to the app that will show you your chance of dying</string>
+    <string name="sample_text">sample text</string>
+    <string name="searchbar_txt">enter activity to search</string>
+    <string name="_0">0</string>
+    <string-array name="days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Friday</item>
+        <item>Friday</item>
+        <item>Friday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Sunday</item>
+        <item>Sunday</item>
+        <item>Sunday</item>
+        <item>Sunday</item>
+        <item>Sunday</item>
+        <item>Sunday</item>
+        <item>Sunday</item>
+        <item>Sunday</item>
+        <item>Sunday</item>
+        <item>sdfgsdfg</item>
+        <item>sdfgsdfg</item>
+        <item>sdfgsdfg</item>
+        <item>sdfgsdfg</item>
+    </string-array>
+    <string-array name="description">
+        <item>good</item>
+        <item>good</item>
+        <item>good</item>
+        <item>medium</item>
+        <item>medium</item>
+        <item>medium</item>
+        <item>bad</item>
+        <item>bad</item>
+        <item>bad</item>
+        <item>bad</item>
+        <item>bad</item>
+        <item>bad</item>
+        <item>bad</item>
+        <item>bad</item>
+        <item>bad</item>
+        <item>bad</item>
+        <item>bad</item>
+        <item>bad</item>
+        <item>bad</item>
+        <item>bad</item>
+        <item>sdffg</item>
+        <item>sdffg</item>
+        <item>sdffg</item>
+        <item>sdffg</item>
+    </string-array>
+
+
+</resources>

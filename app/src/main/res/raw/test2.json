@@ -1,0 +1,69 @@
+{
+  "world life risk":{
+    "heart and blood diseases" : 32.83833059 ,
+    "cancer" : 17.83155684 ,
+    "lung and airway diseases" : 7.030830952 ,
+    "Digestive diseases" : 4.524724132 ,
+    "lung and airway infections" : 4.410638747 ,
+    "newborn disorders" : 3.330159626 ,
+    "Alzheimer's disease" : 2.871684591 ,
+    "Diabetes" : 2.74412422 ,
+    "Diarrheal diseases" : 2.71453303 ,
+    "liver diseases" : 2.604088385 ,
+    "kidney disease" : 2.524869549 ,
+    "Road injuries" : 2.11985396 ,
+    "Tuberculosis" : 2.087085525 ,
+    "HIV/AIDS" : 1.528185843 ,
+    "Self-harm" : 1.342771662 ,
+    "Malaria" : 1.138184328 ,
+    "sexual assault" : 0.734481387 ,
+    "Parkinson's disease" : 0.642006929 ,
+    "Nutritional disorders" : 0.44505666 ,
+    "Drowning" : 0.419697079 ,
+    "Meningitis" : 0.41789263 ,
+    "Protein-energy malnutrition" : 0.375470395 ,
+    "Maternal disorders" : 0.347570434 ,
+    "Alcohol use disorders" : 0.297229853 ,
+    "Drug use disorders" : 0.226587455 ,
+    "Fire and heat and hot substances" : 0.196883045 ,
+    "Acute hepatitis" : 0.140067677 ,
+    "Poisonings" : 0.136504776 ,
+    "Conflict and terrorism" : 0.111424708 ,
+    "Environmental heat and cold exposure" : 0.083961706 ,
+    "Exposure to forces of nature" : 0.010748853,
+    "other" : 3.772794
+  },
+  "world death by age":{
+    "Age: Under 5": 5043568,
+    "Age: 70+ years": 28407810,
+    "Age: 50-69 years": 14967547,
+    "Age: 5-14 years": 677012,
+    "Age: 15-49 years": 7431023
+  },
+  "world death by general cause":   {
+    "Non-communicable diseases": 42034124,
+    "Communicable, maternal, neonatal, and nutritional diseases": 10193395,
+    "Injuries": 4299441
+  },
+
+
+  "lifeTimeChance": {
+    "any motor vehicle" : 0.01,
+    "eating" : 0.00037,
+    "plane flight" : 0.0000053,
+    "swimming" : 0.0009765,
+    "cycling" : 0.0002631,
+    "skydiving / bunji jump" : 0.0000012,
+    "falling" : 0.0098039,
+    "doing drugs" : 0.0001,
+    "drinking alcohol" : 0.05,
+    "range shooting" : 0.0125,
+    "taking opioids" : 0.0128205,
+    "crossing a road" : 0.0018484,
+    "driving a motorcycle" : 0.0011655,
+    "being near a cataclysmic storm" : 0.0000318,
+    "riding a train" : 0.0000041,
+    "bee / wasp stings" : 0.0000175,
+    "canoeing" : 0.001
+  }
+}
