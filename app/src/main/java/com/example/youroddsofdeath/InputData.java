@@ -1,7 +1,6 @@
 package com.example.youroddsofdeath;
 
 import android.content.res.Resources;
-import android.util.Log;
 
 
 import org.json.JSONObject;
@@ -59,7 +58,7 @@ public class InputData {
         lifeTimeRisksMap.put("Liver disease", 1.26);
         lifeTimeRisksMap.put("Tuberculosis", 1.21);
         lifeTimeRisksMap.put("Kidney disease", 1.19);
-        lifeTimeRisksMap.put("", .0); // more at /programming stuff/oddeath app/
+        lifeTimeRisksMap.put("", .0);
 
         return lifeTimeRisksMap;
     }
@@ -135,28 +134,4 @@ public class InputData {
         } catch (Exception e) {e.printStackTrace();}
         return map;
     }
-    /*
-    // save map to file
-    public static void storeMapInPropertie(HashMap<String, Double> map, String name) throws IOException {
-        Properties properties = new Properties();
-
-        for (Map.Entry<String,Double> entry : map.entrySet()) {
-            properties.put(entry.getKey(), (100/entry.getValue()));
-        }
-        properties.store(new FileOutputStream("lifeRiskData.properties"), null);
-    }
-
-    // load the map from file
-    public static HashMap<String, Double> loadMapFromProperties(String name) throws IOException {
-        Properties properties = new Properties();
-        HashMap<String, Double> map = new HashMap<String, Double>();
-
-        properties.load(new FileInputStream("lifeRiskData.properties"));
-        for (String key : properties.stringPropertyNames()) {
-            map.put(key, Double.parseDouble(properties.get(key).toString()));
-        }
-        return map;
-    }
-    */
-
 }

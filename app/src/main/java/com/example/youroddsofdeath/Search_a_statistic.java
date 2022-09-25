@@ -1,5 +1,7 @@
 package com.example.youroddsofdeath;
 
+import static com.example.youroddsofdeath.MainActivity.sortByValue;
+
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -8,13 +10,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.SearchView;
 import android.widget.TextView;
 
-import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -34,8 +34,11 @@ public class Search_a_statistic extends AppCompatActivity {
         // get data from intent
         Intent i = getIntent();
         statisticsList = (HashMap<String, Double>) i.getSerializableExtra("hashmap");
+        statisticsList = sortByValue(statisticsList);
+
         listName = i.getStringExtra("list name");
         printTP = i.getStringExtra("printTP");
+
         if (!printTP.equals("percent")){
             findViewById(R.id.goToShow).setVisibility(View.GONE);
         }
@@ -70,6 +73,7 @@ public class Search_a_statistic extends AppCompatActivity {
                     }
                 }
 
+                filterdList = sortByValue(filterdList);
                 MyAddapter addapter = new MyAddapter(getApplicationContext(), filterdList, printTP); // update view
                 reclVew.setAdapter(addapter);
                 reclVew.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
